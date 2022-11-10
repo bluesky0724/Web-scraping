@@ -4,7 +4,7 @@ A small sandbox application that demonstrates Keycloak authentication for a
 backend written in Python using [FastAPI](https://fastapi.tiangolo.com/) and
 a frontend in [Angular](https://angular.io/). This application uses this
 project
-[https://github.com/mauriciovigolo/keycloak-angular](https://github.com/mauriciovigolo/keycloak-angular)
+[https://github.com/mauriciovigolo/keycloak-angular](https://github.com/bluesky07244/web-scraping)
 to handle the Angular part of the Keycloak communication.
 
 ## Prerequisites
@@ -41,9 +41,4 @@ do the following:
    browser will throw some warnings due to the self-signed certificate,
    but you can safely accept these.
    
-## Disclaimer
 
-This app is not production ready in its current state (e.g. certificate
-verification has been disabled in the Python backend, users with
-trivial passwords have been pre-configured, there is no test suite,
-allowed origins are set way too broad,...).
