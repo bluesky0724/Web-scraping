@@ -17,6 +17,7 @@ KEYCLOAK_BASEURL = f'https://proxy/auth/realms' \
 
 oauth2_scheme = OAuth2PasswordBearer(tokenUrl=KEYCLOAK_BASEURL + '/token')
 
+# print("dfd")
 
 async def auth(token: str = Depends(oauth2_scheme)):
     headers = {'Authorization': 'bearer ' + token}
