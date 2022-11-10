@@ -1,4 +1,4 @@
-# FastAPI-Keycloak-Angular
+# Web-Scraping
 
 A small sandbox application that demonstrates Keycloak authentication for a
 backend written in Python using [FastAPI](https://fastapi.tiangolo.com/) and
